@@ -1,0 +1,30 @@
+== 🧪 acidwx
+
+ifdef::env-github[]
+++++
+<p align="center">
+  <img src="./.github/preview.png">
+</p>
+++++
+endif::[]
+
+ifndef::env-github[]
+image::preview.png[Preview image, align=center]
+endif::[]
+
+=== 📦 installation
+move the configuration file to a directory of your choice (ideally, `~/.config/alacritty`), then import it in your alacritty configuration file:
+[source, yaml]
+----
+import:
+  - /path/to/acidwx.yml
+----
+
+[source, toml]
+----
+import = ["/path/to/acidwx.yml"]
+----
+
+=== 📝 about
+
+acidwx is a port of @pyratebeard's "acid witch" theme for various applications
